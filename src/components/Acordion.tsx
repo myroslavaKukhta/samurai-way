@@ -1,16 +1,16 @@
 import React from 'react';
 
-function Acordion (){
+function Acordion (props:any){
     return (
         <>
-            <Title/>
+            <TitleAc titleac={props.titleac}/>
             <Body/>
         </>
     )
 }
-function Title () {
+function TitleAc (props:any) {
     return <>
-        <h1>Hello, first kata!</h1>
+        <h1>{props.titleac}</h1>
     </>
 }
 function Body (){
