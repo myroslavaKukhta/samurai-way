@@ -1,22 +1,12 @@
 import React from 'react';
 import './App.css';
-import Acordion from "./components/Acordion";
-import Star from "./components/rating/Star";
-
-
 
 function App() {
-    return (
-        <div className="App">
-            <Acordion />
-            <Star />
-            <Star />
-            <Star />
-            <Star />
-            <Star />
-
-        </div>
-    );
+  return (
+    <div className="App">
+     Hello, samurai! Let's go!
+    </div>
+  );
 }
 
 export default App;
